@@ -300,6 +300,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8B5FA632161C0E5D000011C5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		8B5FA633161C0E5D000011C5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/QRCodeEncoderObjectiveCAtGithub.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeEncoderObjectiveCAtGithub/QRCodeEncoderObjectiveCAtGithub-Prefix.pch";
+				INSTALL_OWNER = "";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSION_INFO_BUILDER = "";
+			};
+			name = Distribution;
+		};
+		8B5FA634161C0E5D000011C5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeEncoderDemo/QRCodeEncoderDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "QRCodeEncoderDemo/QRCodeEncoderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		8B5FA635161C0E64000011C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Test;
+		};
+		8B5FA636161C0E64000011C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/QRCodeEncoderObjectiveCAtGithub.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeEncoderObjectiveCAtGithub/QRCodeEncoderObjectiveCAtGithub-Prefix.pch";
+				INSTALL_OWNER = "";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSION_INFO_BUILDER = "";
+			};
+			name = Test;
+		};
+		8B5FA637161C0E64000011C5 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QRCodeEncoderDemo/QRCodeEncoderDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "QRCodeEncoderDemo/QRCodeEncoderDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Test;
+		};
 		9621845A15431DBA00447877 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,10 +454,6 @@
 		9672D35F13BD662F0002B0E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -363,10 +469,6 @@
 		9672D36013BD662F0002B0E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -419,6 +521,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9621845A15431DBA00447877 /* Debug */,
+				8B5FA637161C0E64000011C5 /* Test */,
+				8B5FA634161C0E5D000011C5 /* Distribution */,
 				9621845B15431DBA00447877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -428,6 +532,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9672D35F13BD662F0002B0E2 /* Debug */,
+				8B5FA635161C0E64000011C5 /* Test */,
+				8B5FA632161C0E5D000011C5 /* Distribution */,
 				9672D36013BD662F0002B0E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -437,6 +543,8 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9672D36213BD662F0002B0E2 /* Debug */,
+				8B5FA636161C0E64000011C5 /* Test */,
+				8B5FA633161C0E5D000011C5 /* Distribution */,
 				9672D36313BD662F0002B0E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
